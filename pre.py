@@ -139,3 +139,91 @@ while number != 0:
 
 print(result)
 print(type(result))
+
+
+
+# Create 2 lists from a given list where 
+# 1st list will contain all the odd numbers from the original list and
+# the 2nd one will contain all the even numbers 
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+odd_numbers = []
+even_numbers = []
+
+for num in numbers:
+    if num % 2 == 0:
+        even_numbers.append(num)
+    else:
+        odd_numbers.append(num)
+
+print("Odd numbers:", odd_numbers)
+print("Even numbers:", even_numbers)
+
+
+
+# How to take list as input from user
+numbers = list(map(int, input("Enter numbers: ").split()))
+print(numbers)
+
+
+# Write a program to merge 2 list without using the + operator
+L1 = [1,2,3,4]
+L2 = [5,6,7,8]
+
+L1.extend(L2)
+
+print(L1)
+
+
+# Write a program to replace an item with a different item if found in the list 
+L = [1,2,3,4,5,3]
+# replace 3 with 300
+
+
+L = [1,2,3,4,5,3]
+
+for i in range(len(L)):
+    if L[i] == 3:
+        L[i] = 300
+
+print(L)
+
+
+
+# Write a program that can convert a 2D list to 1D list
+L = [[1, 2, 3], [4, 5, 6], [7, 8]]
+
+result = []
+
+for sublist in L:
+    for item in sublist:
+        result.append(item)
+
+print(result)
+
+
+
+# Write a program to remove duplicate items from a list
+
+L = [1,2,1,2,3,4,5,3,4]
+
+unique = []
+for x in L:
+    if x not in unique:
+        unique.append(x)
+
+print(unique)
+
+
+
+# Write a program to check if a list is in ascending order or not
+L = [1, 2, 3, 4, 5]
+
+is_sorted = True
+
+for i in range(len(L) - 1):
+    if L[i] > L[i + 1]:
+        is_sorted = False
+        break
+
+print("Ascending" if is_sorted else "Not Ascending")
