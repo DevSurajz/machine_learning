@@ -52,3 +52,94 @@ def calculator():
             print("Result:", divide(num1, num2))
 
 calculator()
+
+
+
+
+# email = input("Enter your email: ")
+# password = input("Enter your password: ")
+
+# if email == "hello@gmail.com" and password == "1234":
+#     print("Account login successful")
+# elif email == "hello@gmail.com" and password != "1234":
+#     print("Incorrect password")
+#     password = input("Enter your password again")
+#     if password == "1234":
+#         print("Password updated successfully")
+#     else: 
+#         print("Incorrect password again. Account locked.")
+# else: 
+#     print("Not correct email or password")
+
+
+
+
+# find the min of 3 given mumber 
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# c = int(input("Enter third number: "))
+
+# if a < b and a < c:
+#     print("min number is:", a)
+# elif b < a and b < c:
+#     print("min number is: ", b)
+# else:  
+#     print("min number is: ", c)
+
+
+# first = int(input("Enter first number: "))
+# second = int(input("Enter second number: "))
+
+# op = input("Enter the operation: ")
+
+# if op == "+":
+#     print("Sum is: ", first + second)
+# elif op == "-":
+#     print("Difference is: ", first - second)
+# elif op == "*":
+#     print("Product is: ", first * second)
+# elif op == "/":
+#     print("Quotient is: ", first / second)
+# else:
+#     print("Invalid operation")
+
+
+
+import math
+import keyword
+import random 
+import datetime 
+
+
+# print(datetime.datetime.now())
+# print(random.randint(1,100))
+
+# print(keyword.kwlist)
+
+# help('modules')
+
+# number = int(input("Enter a number: "))
+
+# i = 1
+# while i < 11:
+#     print(number, '*', i, '=' , number*i)
+#     i += 1
+
+#genrate random number 
+# import random 
+# jackpot = random.number = random.randint(1, 100)
+
+# guess = int(input("Guess the number: "))
+# counter = 1
+# while guess != jackpot:
+#     if guess < jackpot:
+#         print("Too low! try again")
+#     else:
+#         print("Too high! try again")
+
+#     guess = int(input("Guess the number: "))
+#     counter += 1 
+# else:
+#     print("Congratulations! You guessed the number.")
+#     print("Attempts", counter)
+
